@@ -1,0 +1,38 @@
+## Title: Inventory Insight
+## Author: manavortex, AssemblerManiac
+## Version: 3.65
+## AddOnVersion: 30065
+## APIVersion: 101037 101038
+## SavedVariables: IIfA_Settings IIfA_Data
+## DependsOn: LibCustomMenu>=721 LibAsync>=20302 LibAddonMenu-2.0>=34
+## OptionalDependsOn: LibFilters-3.0>=334 pChat FCOItemSaver>=226 LibDebugLogger DebugLogViewer
+
+; pChat is optional dependency because it should be loaded BEFORE any other addon so it provides
+; load time debugging
+
+i18n\en.lua
+i18n\$(language).lua
+Init.lua
+bindings.xml
+bindings.lua
+InventoryInsight.xml
+InventoryInsight_CurrencyTooltip.lua
+InventoryInsight_BagSpaceTooltip.lua
+InventoryInsight_Settings.lua
+InventoryInsight_Events.lua
+InventoryInsight_Tooltip.lua
+InventoryInsight_Backpack.lua
+InventoryInsight_SceneFuncs.lua
+InventoryInsight_Menu.lua
+InventoryInsight_DataCollection.lua
+InventoryInsight_XmlAdapter.lua
+InventoryInsight.lua
+plugins/FCOIS/IIfA_FCOIS.lua
+
+
+; DISCLOSURE:
+; This Add-on is not created by, affiliated with or sponsored by ZeniMax
+; Media Inc. or its affiliates. The Elder Scrolls® and related logos are
+; registered trademarks or trademarks of ZeniMax Media Inc. in the United
+; States and/or other countries. All rights reserved.
+; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms

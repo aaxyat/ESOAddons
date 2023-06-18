@@ -1,0 +1,12 @@
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="LCA_ScreenBorder" tier="HIGH" virtual="true">
+			<AnchorFill />
+			<Controls>
+				<Backdrop name="$(parent)Overlay">
+					<AnchorFill />
+				</Backdrop>
+			</Controls>
+		</TopLevelControl>
+	</Controls>
+</GuiXml>

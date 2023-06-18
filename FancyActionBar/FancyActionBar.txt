@@ -1,0 +1,13 @@
+## Title: FancyActionBar
+## Version: 2.7
+## APIVersion: 101034
+## AddOnVersion: 207
+## Author: |cFFFF00andy.s|r
+## SavedVariables: FancyActionBarSV
+## DependsOn: LibAddonMenu-2.0>=34
+## OptionalDependsOn: Azurah
+
+main.lua
+config.lua
+menu.lua
+ui.xml

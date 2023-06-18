@@ -1,0 +1,12 @@
+## Title: BugCatcher
+## Author: Werewolf Finds Dragon, Shadowfen
+## APIVersion: 101038 101037
+## AddonVersion: 030
+## DependsOn: LibAddonMenu-2.0>=32 LibSFUtils>=45
+## SavedVariables: bugCatcherAddonDB
+
+BugCatcher_Global.lua
+Libs\LibOmniMessage-1.0\LibOmniMessage-1.0.lua
+
+Core.lua
+BugSack.lua
